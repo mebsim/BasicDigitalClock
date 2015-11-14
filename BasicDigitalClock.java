@@ -62,9 +62,9 @@ public class BasicDigitalClock extends JPanel implements ActionListener{
         g.setColor(Color.BLACK);
         g.setFont(new Font("TimesRoman", Font.BOLD, 100));
         /*
-        //String secS = (sec < 10 ? "0" : "") + Double.toString(sec); if you want to implement yourown time
-        //String minS = (min < 10 ? "0" : "") + Double.toString(min);
-        //String hourS = (hour < 10 ? "0" : "") + Double.toString(hour);
+        String secS = (sec < 10 ? "0" : "") + Double.toString(sec); if you want to implement yourown time
+        String minS = (min < 10 ? "0" : "") + Double.toString(min);
+        String hourS = (hour < 10 ? "0" : "") + Double.toString(hour);
         String secs = secS.substring(0, 2);
         String mins = minS.substring(0, 2);
         String hours = hourS.substring(0, 2);
@@ -102,10 +102,11 @@ public class BasicDigitalClock extends JPanel implements ActionListener{
             if(hour == 13){
                 hour = 1;
             }
-                */
-        // If you want to place a specific time, place it in the min, sec, hours. 
-        // If you want to add animation, then the part in above this works,
-        //so the animation fits nicely
+
+             If you want to place a specific time, place it in the min, sec, hours. 
+             If you want to add animation, then the part in above this works,
+             so the animation fits nicely
+        */
         repaint();
     }
 }
