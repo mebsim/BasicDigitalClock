@@ -1,5 +1,3 @@
-package basic.digital.clock;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
@@ -62,10 +60,10 @@ public class BasicDigitalClock extends JPanel implements ActionListener{
         g.setColor(Color.BLACK);
         g.setFont(new Font("TimesRoman", Font.BOLD, 100));
         /*
-        String secS = (sec < 10 ? "0" : "") + Double.toString(sec); if you want to implement yourown time
-        String minS = (min < 10 ? "0" : "") + Double.toString(min);
+        String secS = (sec < 10 ? "0" : "") + Double.toString(sec); if you want to implement your own time
+        String minS = (min < 10 ? "0" : "") + Double.toString(min); changes the numbers to strings while keeping the two digit format
         String hourS = (hour < 10 ? "0" : "") + Double.toString(hour);
-        String secs = secS.substring(0, 2);
+        String secs = secS.substring(0, 2); choses all the digits
         String mins = minS.substring(0, 2);
         String hours = hourS.substring(0, 2);
         */
