@@ -102,8 +102,8 @@ public class BasicDigitalClock extends JPanel implements ActionListener{
             }
 
              If you want to place a specific time, place it in the min, sec, hours. 
-             If you want to add animation, then the part in above this works,
-             so the animation fits nicely
+             IF you want it to automaticly switch from 60 seconds to 1 minute and 0
+             seconds, then the spot above does that.
         */
         repaint();
     }
